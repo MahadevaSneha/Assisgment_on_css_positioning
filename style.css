@@ -1,0 +1,66 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling the navigation bar */
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: rgb(99, 96, 97);
+  overflow: hidden;
+  position: fixed; /* Fixed positioning */
+  width: 100%;
+  align-items: center;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 25px;
+  float: left;
+}
+
+#navbar ul li a:hover {
+  background-color: bisque;
+  color: black;
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Styling the content */
+.container {
+  position: relative; /* Relative positioning */
+  top: 120px; /* Move content 120px from the top */
+}
+
+h1 {
+  color: blue;
+  font-weight: 200;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 14px 5px;
+  margin-bottom: 20px;
+}
